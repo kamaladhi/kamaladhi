@@ -31,7 +31,7 @@ physics-informed neural networks to servo-driven rescue robots.
 
 | Project | Description | Tech |
 |--------|-------------|------|
-| [Snake Rescue Robot](https://github.com/kamaladhi) | YOLOv8 human detection on servo robot — Best Paper Award | YOLOv8, RPi, Arduino |
+| [Snake Rescue Robot](https://drive.google.com/drive/folders/1D8UcViLYWYyXmVHtDe3Z2YbI5SOueiB9?usp=drive_link) | YOLOv8 human detection on servo robot — Best Paper Award | YOLOv8, RPi, Arduino |
 | [EV Range Prediction (PINN)](https://github.com/kamaladhi/EV-Range-prediction-using-PINNS-under-real-traffic-condition) | Physics-constrained LSTM, <5% RMSE, W&B tracked | PyTorch, SUMO, MLflow |
 | [HPC Satellite Benchmark](https://github.com/kamaladhi/Heterogeneous-Satellite-Imaging-Benchmark) | Serial vs OpenMP vs CUDA on 405k satellite images | C++, CUDA, OpenMP |
 | [FedRetinaNet](https://github.com/kamaladhi/FedRetinaNet-Insulator-Defect-Detection) | Federated object detection for power infrastructure | Python, RetinaNet |
@@ -42,9 +42,10 @@ physics-informed neural networks to servo-driven rescue robots.
 
 ## 📄 Publications
 
-- **Bio-Inspired Snake Robot for Real-Time Victim Detection in Disaster Environments** — Mar 2026
-- **Emotion-Aware Image Captioning using Deep Learning** — Mar 2026
-- **Solar Powered Agricultural Robot for Irrigation** (Co-Author) — Feb 2026
+- [**Bio-Inspired Snake Robot for Real-Time Victim Detection in Disaster Environments** ](https://ieeexplore.ieee.org/document/11409077) — Mar 2026
+- [**Emotion-Aware Image Captioning using Deep Learning** (Co-Author)](https://ieeexplore.ieee.org/document/11410892) — Mar 2026
+- [**Solar Powered Agricultural Robot for Irrigation** (Co-Author) ](https://pubs.aip.org/aip/acp/article-abstract/3385/1/030009/3380740/Solar-powered-agricultural-robot-for-irrigation) — Feb 2026
+
 
 ---
 
