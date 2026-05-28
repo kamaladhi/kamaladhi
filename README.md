@@ -8,6 +8,38 @@ physics-informed neural networks to servo-driven rescue robots.
 
 ---
 
+## 💼 Experience
+
+**AI/ML Engineering Intern — UVS Cube Infotech, Madurai**
+*Mar 2026 – May 2026 · Completed ✅*
+
+Built and deployed two production AI systems for the **MyBeat** live healthcare platform:
+
+---
+
+### 🤖 MyBeat Care AI Chatbot
+- Built a **hybrid RAG pipeline** — FAISS (dense) + BM25 (sparse) + PubMedBERT reranking for accurate medical query resolution
+- Integrated **FHIR R4 / ABDM** standards for real-time patient history injection into LLM prompts
+- Engineered a **deterministic severity scoring engine (0–100)** with red-flag symptom detection
+- Implemented **Triple-Gate output safety** — guarantees zero diagnostic statements in all responses
+
+> Stack: FastAPI · FAISS · BM25 · PubMedBERT · Llama-3.1 · Redis · Docker · NGINX · GitHub Actions
+
+
+### 🎙️ MyBeat Voice Assistant
+- Built end-to-end voice pipeline: **Whisper ASR** → **Llama-3.1 NLU** (Groq) → **pyttsx3 TTS** with Gemini failover
+- **Dual-layer NLU** — keyword pattern matching (fast/offline) + Llama-3.1 for complex sentences; supports 8 intents (`BOOKING`, `RECOMMENDATION`, `LAB_BOOKING`, `MANUAL_HANDOFF` etc.)
+- Built a **3-Stage Cascade Recommendation Engine** for doctor ranking:
+  - Stage 1 (60%) — Content: Distance · Experience · Fee · Language
+  - Stage 2 (25%) — Feedback: Ratings · Repeat visits · Booking conversion
+  - Stage 3 (15%) — Trust: Verified credentials · Urgent availability · Insurance match
+- Implemented **voice-to-UI control** — returns structured JSON `uiActions` (`NAVIGATE`, `AUTO_FILL`, `HIGHLIGHT_RECOMMENDATION`) executed by C# frontend
+- **OpenWakeWord** (ONNX) for always-on "Hey MyBeat" hands-free activation
+- Secured all endpoints with **JWT Bearer Token (HS256)** authentication
+
+> Stack: FastAPI · Whisper · Llama-3.1 · OpenWakeWord · pyttsx3 · PyJWT · Docker · NGINX · GitHub Actions CI/CD · IIS Reverse Proxy
+---
+
 ## 🔬 What I'm working on
 - Physics-Informed Neural Networks (PINNs) for EV range prediction under real traffic
 - Federated learning pipelines for power infrastructure defect detection
