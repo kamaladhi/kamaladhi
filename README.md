@@ -96,4 +96,4 @@ Built and deployed two production AI systems for the **MyBeat** live healthcare 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/jeevakamal-k-r-248435280)
 [![Email](https://img.shields.io/badge/Email-jeevakamal2005@gmail.com-red?style=flat&logo=gmail)](mailto:jeevakamal2005@gmail.com)
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kamaladhi&show_icons=true&hide_border=true)](https://github.com/kamaladhi)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kamaladhi&show_icons=true&hide_border=true&theme=dark)](https://github.com/kamaladhi)
