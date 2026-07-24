@@ -70,13 +70,15 @@ Built and deployed two production AI systems for the **MyBeat** live healthcare 
 ## 🛠 Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,flask,react,docker,redis,mysql,postgresql,git,github,linux,cpp,java,matlab" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,flask,react,docker,redis,mysql,postgresql,neo4j,git,github,linux,cpp,java,matlab" />
 </p>
 
 **ML / AI:** PyTorch · PINNs · Federated Learning · LSTMs · Attention · YOLOv8 · LoRA / QLoRA · RAG · LLMs  
+**Agentic AI:** LangChain · LangGraph · GraphRAG · Groq API · Autonomous Agents  
+**Computer Vision:** MediaPipe · BLIP · EfficientNet · Dual-Stream Fusion  
 **Voice AI:** OpenWakeWord · Whisper · pyttsx3  
 **HPC:** CUDA · OpenMP · C++ · Parallel & Heterogeneous Computing  
-**Full Stack:** Python · React · FastAPI · Flask · REST APIs · MySQL · HTML5 · CSS3  
+**Full Stack:** Python · React · FastAPI · Flask · REST APIs · MySQL · Neo4j · HTML5 · CSS3  
 **Hardware / IoT:** Raspberry Pi · Arduino · Blynk IoT  
 **MLOps:** MLflow · Weights & Biases · Docker · NGINX · Redis · Git · GitHub Actions  
 **Languages:** Python · C++ · JavaScript · Java (basics) · MATLAB · Scala (basics)
@@ -88,6 +90,26 @@ Built and deployed two production AI systems for the **MyBeat** live healthcare 
 ## 🚀 Featured Projects
 
 <table>
+<tr>
+<td width="50%">
+
+### 🧠 ResearchOS
+Agentic GraphRAG platform that turns ArXiv papers into a Neo4j knowledge graph, queried by autonomous LangGraph agents for hallucination-free, citation-backed answers.
+
+**Tech:** FastAPI, Neo4j, LangGraph, Docker  
+[📂 GitHub](https://github.com/kamaladhi/ResearchOS)
+
+</td>
+<td width="50%">
+
+### 🎭 AVIS — Dual-Stream Emotion Recognition & Captioning
+Fuses EfficientNet + MediaPipe dual-stream emotion recognition with BLIP and a LangGraph agentic layer for empathetic, context-aware image captioning.
+
+**Tech:** PyTorch, YOLOv8, BLIP, LangGraph  
+[📂 GitHub](https://github.com/kamaladhi/AVIS-Dual-Stream-Emotion-Recognition-and-Contextual-Image-Captioning)
+
+</td>
+</tr>
 <tr>
 <td width="50%">
 
@@ -108,7 +130,6 @@ Physics-constrained LSTM for real-world EV range estimation. **<5% RMSE**, W&B t
 
 </td>
 </tr>
-
 <tr>
 <td width="50%">
 
@@ -129,7 +150,6 @@ Federated object detection for power infrastructure defect detection. **mAP@50: 
 
 </td>
 </tr>
-
 <tr>
 <td width="50%">
 
@@ -153,7 +173,6 @@ Predictive cyber-physical resilience framework with CNN-BiLSTM.
 </table>
 
 ---
-
 ## 📊 GitHub Analytics
 
 <p align="center">
